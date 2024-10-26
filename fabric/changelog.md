@@ -1,1 +1,1 @@
-- Updated to 1.21.3
+- Don't crash when another incompatible version of fabric-permissions-api is installed
