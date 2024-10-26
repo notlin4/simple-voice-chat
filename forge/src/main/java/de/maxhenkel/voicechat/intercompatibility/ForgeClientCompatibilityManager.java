@@ -59,10 +59,7 @@ public class ForgeClientCompatibilityManager extends ClientCompatibilityManager 
 
     @SubscribeEvent
     public void onRenderName(net.minecraftforge.client.event.RenderNameTagEvent event) {
-        if (minecraft.player == null || event.getEntity().isInvisibleTo(minecraft.player)) {
-            return;
-        }
-        renderNameplateEvents.forEach(renderNameplateEvent -> renderNameplateEvent.render(event.getEntity(), event.getContent(), event.getPoseStack(), event.getMultiBufferSource(), event.getPackedLight(), event.getPartialTick()));
+        renderNameplateEvents.forEach(renderNameplateEvent -> renderNameplateEvent.render(event.getState(), event.getContent(), event.getPoseStack(), event.getMultiBufferSource(), event.getPackedLight()));
     }
 
     //TODO Use a Forge event once it's available
