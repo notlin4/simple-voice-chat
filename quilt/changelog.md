@@ -1,2 +1,1 @@
-- Reworked English translation
-- Reworked config descriptions
+- Improved ping response time message
