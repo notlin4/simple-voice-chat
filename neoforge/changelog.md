@@ -1,1 +1,2 @@
 - Improved ping response time message
+- Updated Polish translation
