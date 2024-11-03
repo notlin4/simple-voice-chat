@@ -1,3 +1,2 @@
-- Don't crash when another incompatible version of fabric-permissions-api is installed
-- Improved ping response time message
+- Updated German translation
 - Updated Polish translation
