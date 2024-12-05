@@ -1,1 +1,0 @@
-- Reworked config descriptions
